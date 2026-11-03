@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: aquamarine;
+    background-color: rgb(87, 223, 177);
     color: rgb(8, 4, 4);
     border: none;
     cursor: pointer;
@@ -22,19 +22,26 @@ ul {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: rgb(231, 31, 31);
+    color: rgb(34, 70, 179);
     border: none;
     cursor: pointer;
     padding: 5px 10px;  
 }
 
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
 
 .delete-btn {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(225, 213, 86);
-    color: rgb(8, 4, 4);
+    background-color: rgb(235, 48, 48);
+    color: rgb(249, 249, 249);
     border: none;
     cursor: pointer;
     padding: 5px 10px;  
